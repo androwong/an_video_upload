@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Upload_Video</string>
+    <string name="facebook_application_id" translatable="false">YOUR_APP_ID</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fbYOUR_APP_ID</string>
+    <string name="history_privacy"><![CDATA[HIstory & Privacy]]></string>
+    <string name="default_web_client_id" translatable="false">480318710951-uo87bp64asc7b3uu9dhblbuvo8c58i7l.apps.googleusercontent.com</string>
+    <string name="web_client_id"><![CDATA[HIstory & Privacy]]></string>
+    <string name="date_time"><![CDATA[Date & Time]]></string>
+    <string name="details">Details of the Content, Details of the Content, Details of the Content, Details of the Content,Details of the Content, Details of the Content, Details of the Content, Details of the Content,Details of the Content, Details of the Content, Details of the Content, Details of the Content</string>
+    <string name="clear_watch">Clear this account\'s watch history from all devices. This will also clear your stories watch history</string>
+    <string name="clear_search">Clear searches made with this account from all devices</string>
+
+</resources>

@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "480318710951",
+    "firebase_url": "https://uploadvideo-b1810.firebaseio.com",
+    "project_id": "uploadvideo-b1810",
+    "storage_bucket": "uploadvideo-b1810.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480318710951:android:5846752ca474b565",
+        "android_client_info": {
+          "package_name": "com.ayusma.upload_video"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "480318710951-uo87bp64asc7b3uu9dhblbuvo8c58i7l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ayusma.upload_video",
+            "certificate_hash": "e6af42b1fe768dc2c32340c9eff1bb2114dc9cc3"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0rXWDcjqg0T9Ll-3Dp9flYJHX9RyK4xQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "480318710951-jarga80tog71rsi2obtkdj5ss85vgl70.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

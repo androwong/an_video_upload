@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_subscribe"
+        android:icon="@drawable/subscribe"
+        android:title="Subscribed"/>
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/avatar"
+        android:title="Profile"/>
+
+    <item
+        android:id="@+id/navigation_Subscription"
+        android:icon="@drawable/rss"
+        android:title="Subscription"/>
+
+    <item
+        android:id="@+id/navigation_contact"
+        android:icon="@drawable/telephone"
+        android:title="Contact Us"/>
+</menu>

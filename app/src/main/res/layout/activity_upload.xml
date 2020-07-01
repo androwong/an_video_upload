@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_upload"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UploadActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+
+    <EditText
+        android:id="@+id/topic"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_below="@id/videoView"
+        android:layout_width="match_parent"
+        android:gravity="start"
+        android:layout_height="100dp"
+        android:hint="Enter Video Topic...."/>
+
+ 
+
+    <LinearLayout
+        android:layout_below="@+id/topic"
+        android:id="@+id/layout_type"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please Select Type"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_article"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="articleVideo"
+            android:text="Article"
+            />
+
+
+        <RadioButton
+            android:id="@+id/radio_video"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="articleVideo"
+            android:text="Video"
+            />
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_above="@id/linearLayout"
+             android:layout_below="@id/layout_type"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please Check Category For Your Content"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/entertainment_checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="Entertainment" />
+
+            <RadioButton
+                android:id="@+id/movie_checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="Movie" />
+
+            <RadioButton
+                android:id="@+id/sport_checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="Sport" />
+
+            <RadioButton
+                android:id="@+id/political_checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="Political" />
+
+            <RadioButton
+                android:id="@+id/bangla_checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="Bangla" />
+
+            <RadioButton
+                android:id="@+id/russia_checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="Russian" />
+
+            <RadioButton
+                android:id="@+id/english_checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="English" />
+
+
+            <RadioButton
+                android:id="@+id/tech_checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="Tech" />
+
+            <RadioButton
+                android:id="@+id/world_checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="World" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonChoose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_sign_in_background"
+            android:text="Choose" />
+
+        <Button
+            android:id="@+id/buttonUpload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_register_background"
+            android:text="Upload" />
+
+    </LinearLayout>
+
+    
+
+
+</RelativeLayout>
